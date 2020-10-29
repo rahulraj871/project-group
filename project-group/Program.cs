@@ -30,19 +30,19 @@ namespace project_group
                 Status = true
             };
          
-            Group gmedium = new Group
+            Group  gsmall = new Group
             {
                 GroupName = "medium",
                 Numberofstudents = 10,
                 ProjectName = p1
             };
-            Group gadvance = new Group
+            Group gmedium  = new Group
             {
                 GroupName = "advance",
                 Numberofstudents = 11,
                 ProjectName = p2
             };
-            Group gsmall = new Group
+            Group gadvance = new Group
             {
                 GroupName = "small",
                 Numberofstudents = 12,
