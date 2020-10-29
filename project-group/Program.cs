@@ -48,10 +48,12 @@ namespace project_group
                 Numberofstudents = 12,
                 ProjectName = p3
             };
-            Student s = new Student();
-            s.ID = 1;
-            s.Name = "Gautam Bhindi";
-            s.Studentgroup = gmedium;
+            Student s = new Student
+            {
+                ID = 1,
+                Name = "Gautam Bhindi",
+                Studentgroup = gmedium
+            };
 
             Console.WriteLine(gsmall.Numberofstudents);
             Console.WriteLine(gmedium.Numberofstudents);
@@ -59,6 +61,7 @@ namespace project_group
             Console.WriteLine(s.ID);
             Console.WriteLine(s.Name);
             Console.WriteLine(s.Studentgroup.GroupName);
+            Console.WriteLine(s.Studentgroup.ProjectName.Name);
 
 
 
